@@ -22,7 +22,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.skbhati199.tutorialthreads"
     },
     "web": {
       "bundler": "metro",
@@ -34,6 +35,21 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "619401dc-3889-4e8c-b455-aba8582bb06a"
+      }
+    },
+    "owner": "skbhati199",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/619401dc-3889-4e8c-b455-aba8582bb06a"
     }
   }
 }
